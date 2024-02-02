@@ -44,12 +44,12 @@ export default function ItdSearch() {
   }
 
   return (
-    <div className='itd-search  w-3/5 mx-72 mt-40 flex flex-col justify-center items-center'>
+    <div className='itd-search  w-3/5 mx-72 mt-16 flex flex-col justify-center items-center'>
         <h1 className="text-3xl font-bold text-gray-900">ITD-SEARCH</h1>
-      <div className="search-div py-2 w-full  flex justify-center items-center border border-solid border-black pr-0 rounded-2xl mt-10">
+      <div className="search-div py-2 w-full  flex justify-center items-center border border-solid border-black pr-0 rounded-3xl mt-10">
         
         <input
-          className="search-here w-11/12 h-full pl-4 focus:outline-none rounded-2xl"
+          className="search-here w-11/12 h-full pl-4 focus:outline-none rounded-3xl"
           type="text"
           placeholder="search something"
           onInput={changeHandler}
@@ -57,7 +57,7 @@ export default function ItdSearch() {
           autoFocus
         />
         <button
-          className="ask-btn w-1/12 py-1.5 mr-1.5 focus:outline-none hover:opacity-90 active:opacity-80 bg-black border-none text-white font-bold text-lg flex flex-row justify-center items-center rounded-xl"
+          className="ask-btn w-1/12 py-1.5 mr-2 focus:outline-none hover:opacity-90 active:opacity-80 bg-black border-none text-white font-bold text-lg flex flex-row justify-center items-center rounded-3xl"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20"><path fill="currentColor" fillRule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11a5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clipRule="evenodd"/></svg>
         </button>
